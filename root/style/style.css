@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+
+
+/*Index*/
+
+
+/* .grid {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav" "header" "header"
+    "nav" "section" "section"
+    "nav" "section" "section"
+    "nav" "footer" "footer";
+} COMENTADO XQ QUEDA DESPROPORCIONADO, USAR SI SE ENTIENDE BIEN COMO CORREGIRLO*/
+
+
+
+header h1{
+    margin: 2%;
+    padding: 1%;
+    text-align: center;
+    background-color: gold;
+    grid-area: header;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    margin: 5%;
+    text-align: center;
+    list-style: none;
+    background-color: green;
+}*/
+
+/* NO UTILIZAR HASTA CORRECION
+nav ul li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    margin: 5%;
+    text-align: center;
+    list-style: none;
+    
+
+}*/
+
+nav{
+    background-color: green;
+    grid-area: nav  ;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: none
+
+}
+
+
+header h1{
+    margin: 2%;
+    padding: 1%;
+    text-align: center;
+    background-color: gold;
+}
+
+section article{
+    grid-area: section;
+}
+
+div h3{
+    text-align: center;
+    margin: 48px; padding: 24px; background-color: red;
+    
+} 
+
+
+/*GALERIA*/
+
+.fondogaleria{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(189,0,240,1) 97%);
+}
+
+
+div img{
+    margin: 48px; padding: 24px; background-color: red;
+    
+} 
+
+div iframe{
+    margin: 48px; padding: 24px; background-color: red;
+    
+}
+
+main h2{ margin: 48px; padding: 24px; background-color: red;
+    
+}
+
+main h3{
+    margin: 48px; padding: 24px; background-color: red;
+}
+
+
+
+
+.italica{ font-style: italic;
+
+}
+
+
+.fondo-noticia{
+   margin-bottom: 64px; background-color: goldenrod;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+    
+.enunciado2{
+    text-align: center; 
+    background-color: chartreuse;
+
+}
+
+
+.margen-tabla{
+    margin-top: 4%
+    margin-left "2%";
+    background-color: plum;
+}
+
+
+
+footer{
+   margin-top: 64px;
+    background-color: brown;
+    grid-area: footer;
+ 
+}
+
+footer div p{
+    margin: 48px; padding: 24px; background-color: brown;
+    
+}
+
+/*CRONOGRAMA*/
+
+table{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    margin: 5%;
+    text-align: center;
+    list-style: none;
+    justify-content: end;
+}
+
+
