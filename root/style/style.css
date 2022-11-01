@@ -58,10 +58,10 @@ nav ul li{
 
 }*/
 
-nav{
+/* nav{
     background-color: green;
     grid-area: nav  ;
-}
+} */
 
 
 
@@ -176,4 +176,39 @@ table{
     justify-content: end;
 }
 
+/* gradiente para header */
 
+header{ background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 23%, rgba(46,47,91,1) 36%, rgba(149,150,7,1) 50%, rgba(189,0,240,1) 97%);
+
+}
+
+
+/* Prueba para bodyindex */
+
+.bodyindex{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 23%, rgba(46,47,91,1) 36%, rgba(149,150,7,1) 50%, rgba(189,0,240,1) 97%);
+}
+
+/* prueba para inscripcion */
+
+.fondoinscripcion{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(146,148,214,1) 0%, rgba(149,150,7,1) 64%, rgba(9,9,121,1) 79%, rgba(189,0,240,1) 97%);
+}
+
+/* fondo ubicacion */
+
+.fondoubicacion{
+    background: rgb(0,79,64);
+    background: linear-gradient(90deg, rgba(0,79,64,1) 11%, rgba(117,3,113,1) 62%);
+}
+
+
+/* gradiente para fondo del nav */
+
+header nav ul{
+    background: rgb(0,79,64);
+background: linear-gradient(90deg, rgba(0,79,64,1) 9%, rgba(3,166,113,1) 36%, rgba(3,217,148,1) 62%, rgba(139,203,182,1) 86%)
+}
